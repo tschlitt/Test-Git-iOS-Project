@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B842D6C51AC4367D00240458 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B842D6C41AC4367D00240458 /* Test.m */; };
 		B8CBD69C1ABC4B980065A852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBD69B1ABC4B980065A852 /* main.m */; };
 		B8CBD69F1ABC4B980065A852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBD69E1ABC4B980065A852 /* AppDelegate.m */; };
 		B8CBD6A21ABC4B980065A852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBD6A11ABC4B980065A852 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B842D6C31AC4367D00240458 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		B842D6C41AC4367D00240458 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		B8CBD6961ABC4B980065A852 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CBD69A1ABC4B980065A852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8CBD69B1ABC4B980065A852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		B8CBD68D1ABC4B980065A852 = {
 			isa = PBXGroup;
 			children = (
+				B842D6C31AC4367D00240458 /* Test.h */,
+				B842D6C41AC4367D00240458 /* Test.m */,
 				B8CBD6981ABC4B980065A852 /* Git Test */,
 				B8CBD6B21ABC4B980065A852 /* Git TestTests */,
 				B8CBD6971ABC4B980065A852 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8CBD6A21ABC4B980065A852 /* ViewController.m in Sources */,
+				B842D6C51AC4367D00240458 /* Test.m in Sources */,
 				B8CBD69F1ABC4B980065A852 /* AppDelegate.m in Sources */,
 				B8CBD69C1ABC4B980065A852 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				B8CBD6BB1ABC4B980065A852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8CBD6BC1ABC4B980065A852 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				B8CBD6BE1ABC4B980065A852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
